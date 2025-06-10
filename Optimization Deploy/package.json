@@ -1,0 +1,37 @@
+{
+  "name": "pro-nft-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "axios": "^0.26.0",
+    "bignumber.js": "^9.1.1",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.0",
+    "ipfs-http-client": "^56.0.1",
+    "lucide-react": "^0.468.0",
+    "next": "12.1.0",
+    "next-themes": "^0.1.1",
+    "react": "17.0.2",
+    "react-countdown": "^2.3.5",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^12.0.4",
+    "react-hot-toast": "^2.3.0",
+    "react-tailwindcss-datepicker": "^1.6.6",
+    "web3modal": "^1.9.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  }
+}
