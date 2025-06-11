@@ -31,7 +31,7 @@ module.exports = {
       },
     },
   },
-  defaultNetwork: "eth",
+  defaultNetwork: "holesky",
   networks: {
     hardhat: {},
     holesky: {

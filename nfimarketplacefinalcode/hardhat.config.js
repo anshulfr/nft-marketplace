@@ -31,7 +31,7 @@ module.exports = {
       },
     },
   },
-  defaultNetwork: "matic",
+  defaultNetwork: "polygon_mumbai",
   networks: {
     hardhat: {},
     polygon_mumbai: {

@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           <form onSubmit={handleSubmit} className="self-stretch space-y-3">
             <div>
-              <label for="name" className="text-sm sr-only">
+              <label htmlFor="name" className="text-sm sr-only">
                 Your name
               </label>
               <input
@@ -43,7 +43,7 @@ const HeroSection = () => {
             </div>
 
             <div>
-              <label for="email" className="text-sm sr-only">
+              <label htmlFor="email" className="text-sm sr-only">
                 Email address
               </label>
               <input

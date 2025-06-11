@@ -30,7 +30,7 @@ module.exports = {
       },
     },
   },
-  defaultNetwork: "matic",
+  defaultNetwork: "polygon_amoy",
   networks: {
     hardhat: {},
     polygon_amoy: {
