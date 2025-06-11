@@ -15,9 +15,8 @@ const FooterLinks = ({ heading, items, extraClasses, links }) => (
       {heading}
     </h3>
     {items.map((item, index) => (
-      <Link href={`${item.link}`}>
+      <Link href={`${item.link}`} key={item.name + index}>
         <p
-          key={item + index}
           className="font-poppins dark:text-white text-nft-black-1 font-normal text-base cursor-pointer dark:hover:text-nft-gray-1 hover:text-nft-black-1 my-3"
         >
           {item.name}
