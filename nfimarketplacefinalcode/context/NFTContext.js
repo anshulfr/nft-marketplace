@@ -154,7 +154,9 @@ export const NFTProvider = ({ children }) => {
 
       //GET USER BALANCE
       const balance = await getBalance();
-      setBalance(ethers.utils.formatEther(balance.toString()));
+      if (balance) {
+        setBalance(ethers.utils.formatEther(balance.toString()));
+      }
       setAddress(account);
 
       //TOKEN CONTRACT
